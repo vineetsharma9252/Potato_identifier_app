@@ -1,0 +1,87 @@
+/* Center the container */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    padding: 20px;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .upload-form {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Custom file input styling */
+  .custom-file-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #495057;
+    font-weight: bold;
+  }
+  
+  .custom-file-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #ced4da;
+    border-radius: 6px;
+    background: #f8f9fa;
+    color: #6c757d;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .custom-file-input:hover {
+    border-color: #007bff;
+  }
+  
+  /* Preview styling */
+  .preview {
+    margin-top: 20px;
+  }
+  
+  .preview-img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Custom button styling */
+  .custom-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+  }
+  
